@@ -81,8 +81,9 @@ footer {
   color: #fff;
 }
 
-.error-message {
+label.error-message {
   color: red;
-  display: block;
   font-size: 12px;
+  width: 100%;
+  text-align: end;
 }
