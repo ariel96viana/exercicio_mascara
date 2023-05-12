@@ -40,8 +40,13 @@ form {
   border: solid 1px black;
   padding: 30px;
   height: 600px;
-  width: 315px;
-  gap: 0;
+  width: 350px;
+}
+
+.container-formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 label {
@@ -49,7 +54,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 200px;
   height: 40px;
   padding: 8px;
 }
